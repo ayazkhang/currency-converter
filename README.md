@@ -18,6 +18,9 @@ Switch to React directory front-end eg:- cd/front-end
 ** When this finishes, start app with **
 `npm run start`
 
+** Rund the tests **
+`npm test`
+
 
 ** Node Setup**
 Switch to React directory back-end eg:- cd/back-end
@@ -36,3 +39,6 @@ Switch to React directory back-end eg:- cd/back-end
 
 ** When this finishes, start app with **
 `node dist/app.js `
+
+** Run the tests **
+`npm test`
