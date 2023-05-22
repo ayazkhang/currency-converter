@@ -4,35 +4,35 @@ Clone or download the repository. There are two parts of the project front-end t
 Switch to React directory front-end eg:- cd/front-end
 
 ** install all the required modules by running below comman**
-npm install
+`npm install`
 
 ** create build**
-npm run build
+`npm run build`
 
 ** Build the Docker image **
-docker build -t front-end .
+`docker build -t front-end .`
 
 ** Run the Docker container  **
- docker run -p 4000:4000 front-end
+ `docker run -p 4000:4000 front-end`
 
 ** When this finishes, start app with **
-npm run start
+`npm run start`
 
 
 ** Node Setup**
 Switch to React directory back-end eg:- cd/back-end
 
 ** install all the required modules by running below comman**
-npm install
+`npm install`
 
 ** create build**
-npx tsc
+`npx tsc`
 
 ** Build the Docker image **
-docker build -t back-end .,
+`docker build -t back-end .`
 
 ** Run the Docker container  **
- docker run -p 4000:4000 back-end
+`docker run -p 4000:4000 back-end`
 
 ** When this finishes, start app with **
-node dist/app.js 
+`node dist/app.js `
